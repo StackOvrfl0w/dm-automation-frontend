@@ -50,6 +50,7 @@ const navLinks = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
+  { label: "Dashboard", href: "/dashboard" },
 ];
 
 const logos = [
@@ -300,10 +301,10 @@ export default function Page() {
 
           <div className="hidden md:block">
             <a
-              href="#final-cta"
+              href="/dashboard"
               className="inline-flex items-center rounded-lg bg-[#0f172a] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#1e293b]"
             >
-              Book a Demo
+              Open Dashboard
             </a>
           </div>
 
@@ -335,11 +336,11 @@ export default function Page() {
                 </a>
               ))}
               <a
-                href="#final-cta"
+                href="/dashboard"
                 className="mt-2 inline-flex w-full items-center justify-center rounded-lg bg-[#0f172a] px-5 py-2.5 text-sm font-semibold text-white"
                 onClick={() => setMobileOpen(false)}
               >
-                Book a Demo
+                Open Dashboard
               </a>
             </div>
           </div>
@@ -372,10 +373,10 @@ export default function Page() {
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
-                href="#pricing"
+                href="/dashboard"
                 className="inline-flex cursor-pointer items-center justify-center rounded-lg bg-[#0f172a] px-6 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#1e293b]"
               >
-                Start Free Trial
+                Connect Instagram
               </a>
               <a
                 href="#live-demo"
